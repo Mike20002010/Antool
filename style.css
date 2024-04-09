@@ -1,0 +1,87 @@
+html, 
+body,
+header,
+a,
+nav,
+ul,
+li,
+section,
+button,
+h3,
+p,
+img,
+ footer{ 
+    margin: 0;
+    padding:0 ;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1225px;
+    margin: 0 auto;
+    padding:10px 0 ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ===================header==================== */
+
+.header{
+    display: flex;
+
+    
+}
+
+.logo{
+    /* color: rgba(255, 255, 255, 0.90); */
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 34px;
+    margin-left: 161px;
+}
+
+.nav{
+
+}
+
+.nav-list{
+margin-top: 38px;
+}
+
+.nav-item{
+
+}
+
+.item{
+    /* color: rgba(255, 255, 255, 0.55); */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn{
+    background-color: rgba(255, 110, 48, 1);
+    width: 118px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #FDF5FF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-color: #FDF5FF;
+}
