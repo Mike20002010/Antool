@@ -242,23 +242,20 @@ margin-bottom: 60px;
     padding-top: 110px;
 }
 
-.catalog{
-display: flex;
-justify-content: center;
-padding-top: 200px;
-}
+/* ====================popular section=================== */
 
-.catalog-h1{
+
+
+.popular-h1{
     color: rgba(255, 255, 255, 0.90);
 text-align: center;
-font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 500;
 line-height: 130%; /* 62.4px */
 }
 
-.catalog-text{
+.popular-text{
     color: rgba(255, 255, 255, 0.55);
 text-align: center;
 font-family: Poppins;
@@ -270,21 +267,28 @@ padding-left: 390px;
 padding-right: 391px; ;
 }
 
-.catalog-ul{
+.popular{
+display: flex;
+justify-content: center;
+padding-top: 200px;
+}
+
+.popular-list{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
-
-
+gap: 95px 25px;
 }
 
-.catalog-li{
-   
+.popular-item{
+flex-basis: calc((100% - 3 * 25px) / 3);
 }
 
-.catalog-name{
+.popular-wrap-content{
+    display: flex;
+}
+
+.popular-title{
     color: rgba(255, 255, 255, 0.78);
-font-family: Poppins;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
@@ -295,7 +299,7 @@ align-items:end;
 
 }
 
-.catalog-skndname{
+.popular-subtitle{
     color: rgba(255, 165, 55, 0.55);
 font-family: Poppins;
 font-size: 18px;
@@ -304,7 +308,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.catalog-description{
+.popular-description{
     color: rgba(255, 255, 255, 0.55);
 font-family: Poppins;
 font-size: 16px;
@@ -313,10 +317,11 @@ font-weight: 400;
 line-height: 30px; /* 187.5% */
 background-repeat: 33px;
 border-left: 33px;
+padding-bottom: 30px;
 
 }
 
-.catalog-button{
+.popular-button{
     border-radius: 8px;
 background: #1E252B;
 width: 106px;
@@ -330,24 +335,39 @@ font-weight: 400;
 line-height: normal;
 }
 
-.catalog-button:hover{
+.popular-button:hover{
    background-color: rgba(255, 110, 48, 1);
 }
 
-.catalog-img{
-    
+.popular-img{
+    padding-right: 30px;
+    padding-bottom: 31px;
 }
 
-.catalog-img:hover{
-    background-image: url(img/flat-color-icons_like\ \(1\).png);
+/* .popular-icon:hover{ */
+    /* background-image: url(img/flat-color-icons_like\ \(1\).png); */
 
+/* } */
+
+/* .popular-icon2:hover{ */
+    /* background-image: url(img/eva_folder-add-outline\ \(1\).png); */
+/* } */
+
+.popular-icon{
+padding-right: 16px;
 }
 
-.catalog-img2:hover{
-    background-image: url(img/eva_folder-add-outline\ \(1\).png);
+.popular-icon2{
+padding-right: 140px;
 }
 
-.catalog-button2{
+.ihfo-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 138px;
+}
+
+.popular-button2{
     color: #FF6E30;
 font-family: Poppins;
 font-size: 20px;
@@ -357,4 +377,72 @@ line-height: normal;
 border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: #1E252B;
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: #1E252B;
+width: 184px;
+height: 64px;
+flex-shrink: 0;
+
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 255px;
+    padding-bottom: 55px;
+}
+
+.info-h{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info{
+display: flex;
+justify-content: center;
+}
+
+.info-content{
+    display: flex;
+    align-items: end;
+    gap: 107px;
+}
+git add .
+
+.tool{
+padding-top: 280px;
+}
+
+.tool-text{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 62.4px */
+}
+
+.tool-deskripshion{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 166.667% */
+}
+
+.tool-button{
+    width: 198px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FF6E30;
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
