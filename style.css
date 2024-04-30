@@ -346,16 +346,25 @@ padding: 20px;
     border-radius: 15px;
     border: 2px solid rgba(255, 255, 255, 0.07);
     backdrop-filter: blur(25px);
-    transform: translateY(-20px);
+    backdrop-filter: blur(25px);
     background-color: rgba(40, 48, 54, 0.60);
     width: 392px;
     height: 294px;
-    background-image: linear-gradient(to top right,
-            rgba(255, 255, 255, 0.08),
-            rgba(255, 255, 255, 0)),
-        url(./img/eslip-svg.svg);
     background-repeat: no-repeat;
     background-position: top right;
+}
+
+.popular-item2:hover{
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    background-color: rgba(40, 48, 54, 0.60);
+    width: 288px;
+height: 284px;
+background-repeat: no-repeat;
+    background-position: top right;
+   
 }
 
 .popular-wrap-content{
@@ -430,12 +439,24 @@ border: none;
 /* } */
 
 .popular-icon{
-padding-right: 16px;
+margin-right: 16px;
 }
 
 .popular-icon2{
-padding-right: 135px;
+margin-right: 135px;
 }
+
+.popular-icon:hover{
+background-image: url(img/flat-color-icons_like\ \(3\).png);
+}
+
+.popular-icon2:hover{
+background-image: url(img/eva_folder-add-outline\ \(2\).png);
+}
+
+.popular-icon3:hover{
+    background-image: url(img/eva_folder-add-outline\ \(2\).png);
+    }
 
 .ihfo-button{
     display: flex;
@@ -460,6 +481,11 @@ width: 184px;
 height: 64px;
 flex-shrink: 0;
 
+}
+
+.popular-button2:hover{
+border-color: #FF6E30;
+color: #FFF;
 }
 
 .info-text{
@@ -534,6 +560,7 @@ height: 253px;
     font-weight: 500;
     line-height: 130%; /* 62.4px */
     margin-right: 223px;
+    margin-bottom: 30px;
 }
 
 .tool-deskripshion{
@@ -543,6 +570,7 @@ height: 253px;
     font-weight: 500;
     line-height: 30px; /* 166.667% */
     width: 427px;
+    margin-bottom: 60px;
 }
 
 .tool-icon{
